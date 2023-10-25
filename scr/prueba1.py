@@ -7,11 +7,14 @@ def mayor(n1,n2):
         return 0
 
 
+def main():
+    num1 = input("Escribe un número: ")
+    num2 = input("Escribe otro número: ")
 
-num1 = input("Escribe un número: ")
-num2 = input("Escribe otro número: ")
+    resultado = mayor(num1,num2)
 
-resultado = mayor(num1,num2)
+    print(resultado)
 
-print(resultado)
+if __name__ == "__main__":
+    main()
 

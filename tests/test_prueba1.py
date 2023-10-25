@@ -3,7 +3,7 @@ from scr.prueba1 import mayor
 
 def test_mayor():
     assert mayor(1, 1) == 0
-    assert mayor(0, 0) == 0
+    assert mayor(5, 6) == 6
     assert mayor(100, -100) == 100
 
 
